@@ -23,3 +23,6 @@ def train_pipeline(data_path:str):
     model = model_train(x_train, x_test, y_train, y_test)
     r2_score, rmse = evaluation(model, x_test, y_test)
     return r2_score, rmse
+
+
+# this pipeline created for traning purpose
